@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.estebanluengo.easylearnmaths.layout.DashboardLayoutLandscape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <Button
+        android:id="@+id/bSumar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_add"
+        android:text="@string/sumas" />
+ 
+    <Button
+        android:id="@+id/bRestar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_substract"
+        android:text="@string/restas" />
+ 
+    <Button
+        android:id="@+id/bMultiplicar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_multiply"
+        android:text="@string/multiplicaciones" />
+ 
+    <Button
+        android:id="@+id/bDividir"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_divide"
+        android:text="@string/divisiones" />
+ 
+    <Button
+        android:id="@+id/bTodasOperaciones"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_all_operations"
+        android:text="@string/todas_operaciones" />
+    
+    <Button
+        android:id="@+id/bCompara"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_greater"
+        android:text="@string/compara" />
+    
+    <Button
+        android:id="@+id/bQueNumeroFalta"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_que_numero_falta"
+        android:text="@string/numerofalta" />
+ 
+    <Button
+        android:id="@+id/bPremios"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_gift"
+        android:text="@string/premios" />
+ 
+</com.estebanluengo.easylearnmaths.layout.DashboardLayoutLandscape>

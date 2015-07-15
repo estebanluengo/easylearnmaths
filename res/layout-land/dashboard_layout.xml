@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Include Fragmented dashboard -->
+
+    <include layout="@layout/fragment_layout" />
+
+    <!-- 
+	<com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1506abf653bf69"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="L6SZ-PUYN-EVUJ-6, A3F821D8EF5BF13A3E5273A1CA3FC478" >
+    </com.google.ads.AdView>
+     -->	
+    <!-- Include Footer --> 
+
+    <include layout="@layout/footer_layout" />
+	
+</LinearLayout>

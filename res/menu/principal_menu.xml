@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     
+    <item
+        android:id="@+id/reiniciar"
+        android:alphabeticShortcut="e"
+        android:numericShortcut="4"
+        android:title="@string/reiniciar"
+        android:icon="@drawable/ic_menu_reload"
+        android:showAsAction="never"
+        />
+    
+    <item
+        android:id="@+id/estadisticas"
+        android:alphabeticShortcut="e"
+        android:numericShortcut="4"
+        android:title="@string/estadisticas"
+        android:icon="@drawable/ic_menu_stats_bar_chart"
+        android:showAsAction="never"
+        />
+        
+    <item
+        android:id="@+id/ajustes"
+        android:alphabeticShortcut="j"
+        android:numericShortcut="2"
+        android:title="@string/ajustes"
+        android:icon="@drawable/ic_menu_gear"
+        android:showAsAction="never"
+        />
+        
+    <item
+        android:id="@+id/definirPremios"
+        android:alphabeticShortcut="p"
+        android:numericShortcut="3"
+        android:title="@string/definir_premios"
+        android:icon="@drawable/ic_menu_certificate1"
+        android:showAsAction="never"
+        />
+     
+    <item
+        android:id="@+id/acercaDe"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="@string/acerca_de"
+        android:icon="@drawable/ic_menu_about"
+        android:showAsAction="never"
+        />
+    
+	 <item
+        android:id="@+id/salir"
+        android:alphabeticShortcut="s"
+        android:numericShortcut="5"
+        android:title="@string/salir"
+    	android:icon="@drawable/ic_menu_close"
+    	android:showAsAction="never"
+    	/>
+</menu>

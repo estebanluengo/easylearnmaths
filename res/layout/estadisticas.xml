@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svEstadisticas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+                android:id="@+id/tvLabelEstadisticasGenerales"
+                style="@style/header2_text"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/estadisticas_generales"
+                android:textStyle="bold" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="15dp" 
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPartidasJugadas"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/partidas_jugadas"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPartidasJugadas"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>        
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+        
+ 		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPreguntasContestadas"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/preguntas_contestadas"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPreguntasContestadas"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosConseguidos"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_conseguidos"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosConseguidos"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+        
+        <!--  LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosBonus"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_cuestionario"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosBonus"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" /-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosAciertosSumas"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_aciertos_suma"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosAciertosSumas"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosAciertosRestas"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_acierto_restas"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosAciertosRestas"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20" 
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosAcierosMultiplicaciones"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_acierto_multiplicaciones"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosAciertosMultiplicaciones"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20" 
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosAcierosDivisiones"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_acierto_divisiones"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosAciertosDivisiones"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelPuntosAcierosComparaciones"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/puntos_acierto_comparaciones"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPuntosAciertosComparaciones"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tvLabelOperacionesBasicas"
+                style="@style/header2_text"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="15dp"
+                android:text="@string/operaciones_basicas"
+                android:textStyle="bold" />        
+
+       
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"    
+            android:paddingTop="15dp"        
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelTasaAciertoPrimera"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/tasa_acierto1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTasaAciertoPrimera"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelTasaAciertoSegunda"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/tasa_acierto2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTasaAciertoSegunda"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelTasaAciertoTercera"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/tasa_acierto3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTasaAciertoTercera"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/tvLabelTasaNoAciertos"
+                style="@style/small_text"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:text="@string/tasa_no_acierto"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTasaNoAciertos"
+                style="@style/small_text"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"               
+                android:paddingLeft="5dp" 
+                android:layout_weight="20"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

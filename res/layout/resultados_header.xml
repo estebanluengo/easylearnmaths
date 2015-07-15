@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabelPuntosConseguidos"
+            style="@style/header_text"
+            android:text="@string/puntos_conseguidos" />
+
+        <TextView
+            android:id="@+id/tvPuntosConseguidos"
+            style="@style/header_text"
+            android:layout_toRightOf="@+id/tvLabelPuntosConseguidos"
+            android:textIsSelectable="true"
+            />
+    </RelativeLayout>
+    
+    <View
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="2dp"
+ 		android:background="@color/blue" />
+    
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="horizontal"
+    	android:gravity="center_horizontal">
+    
+    <TextView
+            android:id="@+id/tvCaretoResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/small_text"    
+            android:drawableRight="@drawable/ic_success"
+            android:drawablePadding="5dp"
+            android:textIsSelectable="true"                  
+            />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/header2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/tvOperacion"
+            style="@style/header2_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text="@string/contestaste" />
+
+        <TextView
+            android:id="@+id/tvRespuestaCorrecta"
+            style="@style/header2_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:gravity="left"
+            android:text="@string/resultado" />
+
+        <TextView
+            android:id="@+id/tvNopes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:gravity="left" 
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+</LinearLayout>

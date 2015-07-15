@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+
+    <!-- LinearLayout
+        style="@style/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDefinirPremios"
+            style="@style/header_text"
+            android:text="@string/definir_premios" />
+    </LinearLayout-->
+    
+    <TextView
+        android:id="@+id/tvDefinePremio"
+        style="@style/title_text"        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/define_premio" 
+        />
+    
+
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"                 
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tvPremio"            
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etPremio"
+            android:text="@string/premio" />
+
+        <EditText
+            android:id="@+id/etPremio"
+            style="@style/small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvPremio"
+            
+            android:ems="10" 
+            android:inputType="text">
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp" 
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvPuntos"
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etPuntos"
+            android:text="@string/puntos2" />
+
+        <EditText
+            android:id="@+id/etPuntos"
+            style="@style/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvPuntos"
+            android:ems="4"
+            android:inputType="number" />
+        
+        <!-- Button
+            style="@style/small_button"
+            android:id="@+id/bAceptarPremio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar" 
+            android:layout_toRightOf="@+id/etPuntos"
+            android:gravity="center"/>
+        <Button
+            style="@style/small_button"
+            android:id="@+id/bCancelarPremio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar" 
+            android:layout_toRightOf="@+id/bAceptarPremio"
+            android:visibility="invisible"
+            android:gravity="center"/>
+        <Button
+            style="@style/small_button"
+            android:id="@+id/bEliminarPremio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar" 
+            android:layout_toRightOf="@+id/bCancelarPremio"
+            android:visibility="invisible"
+            android:gravity="center"/-->
+                
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/tvListaDePremio"
+        style="@style/title_text"        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/lista_premios" 
+        />
+    
+    <View
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="2dp"
+ 		android:background="@color/blue" />
+    
+</LinearLayout>

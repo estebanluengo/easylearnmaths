@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aprende mates fácil</string>
+
+    <!--  mensajes lanzados por la aplicacion -->
+    <string name="atencion">Aviso</string>
+    <string name="borrar_progreso">¿Quieres borrar todo tu progreso y volver a empezar?</string>
+    <string name="titulo_acerca_de">Acerca de</string>
+    <string name="body_acerca_de">Aprende mates fácil.\n\nEsteban Luengo Simón\nwww.estebanluengo.info</string>
+    <string name="jugar_de_nuevo">Ok, puedes empezar a jugar de nuevo.</string>
+    <string name="abandonar_partida">¿Quieres abandonar esta partida?. Si no finalizas los progresos no se grabarán</string>
+    <string name="no_operaciones">No se encontraron operaciones.</string>
+    <string name="confirmacion">Confirmación</string>
+    <string name="seguro_comprar_premio">¿Estás seguro de que quieres comprar este premio?</string>
+    <string name="no_puntos">No tienes suficientes puntos. Sigue jugando</string>
+    <string name="acabas_comprar">Ok, acabas de comprar: </string>
+    <string name="premio_obl">Debes introducir el texto y los puntos para el premio.</string>
+
+    <!-- mensajes de error lanzados por la aplicacion -->
+    <string name="error_general">Ocurrió un error inesperado. </string>
+    <string name="error_intentelo_nuevo">Inténtelo de nuevo por favor.</string>
+    <string name="error_reinicio">Si el error continua pulsa la opción reiniciar</string>
+    <string name="error_no_premios">No se pudieron recuperar los premios de la base de datos</string>
+    <string name="error_guardar_premio">No se pudo guardar el premio en la base de datos</string>
+    <string name="error_eliminar_premio">No se pudo eliminar el premio en la base de datos</string>
+
+    <!-- labels de la interface gráfica -->
+    <string name="password">Introduce el password:</string>
+    <string name="passwordIncorrecto">El password introducido no es correcto</string>
+    <string name="sumas">Sumar</string>
+    <string name="restas">Restar</string>
+    <string name="multiplicaciones">Multiplicar</string>
+    <string name="divisiones">Dividir</string>
+    <string name="compara">Comparaciones</string>
+    <string name="quenumerofalta">¿Qué número falta?</string>
+    <string name="numerofalta">¿Qué número falta?</string>
+    <string name="todas_operaciones">De todo</string>
+    <string name="pregunta">Pregunta:</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="lista_premios">Lista de premios</string>
+    <string name="compra_premios">Compra de premios</string>    
+    <string name="define_premio">Define el premio</string>    
+    <string name="premio">Premio:</string>
+    <string name="premios">Premios</string>    
+    <string name="puntos">puntos</string>
+    <string name="puntos2">Puntos:</string>
+    <string name="jugar_partida">Jugar partida</string>    
+    <string name="pulsa_opcion">Pulsa una opción</string>
+    <string name="igual">=</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">eliminar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="de">de</string>
+    <string name="puntos_disponnibles">Puntos disponibles:</string>    
+    <string name="puntos_conseguidos">Puntos conseguidos:</string>
+    <string name="selecciona_compra">Selecciona cual quieres comprar</string>
+    <string name="no_premios">No hay premios</string>
+    <string name="contestaste">Tu respuesta</string>
+    <string name="resultado">Resultado</string>
+    <string name="no_resultados">No hay resultados</string>
+    <string name="nivel_crack">Sorprendente, eres un crack!!</string>
+    <string name="nivel_muybueno">Sigue así. Bien hecho!!</string>
+    <string name="nivel_bueno">No está mal, la próxima un crack!!</string>
+    <string name="nivel_malo">Regulin, seguro que la próxima irá mejor</string>
+    <string name="nivel_muymalo">No te desanimes. Sigue practicando</string>                     
+    <string name="bien">Bien</string>    
+    <string name="estadisticas_juego">Estadísticas de juego</string>
+    <string name="partidas_jugadas">Partidas jugadas:</string>
+    <string name="preguntas_contestadas">Preguntas contestadas:</string>
+    <string name="tasa_acierto1">Tasa acierto primer intento:</string>
+    <string name="tasa_acierto2">Tasa acierto segundo intento:</string>
+    <string name="tasa_acierto3">Tasa acierto tercer o más intentos:</string>
+    <string name="tasa_no_acierto">Tasa de fallos:</string>    
+    <string name="puntos_aciertos_suma">Puntos en sumas:</string>
+    <string name="puntos_acierto_restas">Puntos en restas:</string>
+    <string name="puntos_acierto_multiplicaciones">Puntos en multiplicaciones:</string>
+    <string name="puntos_acierto_divisiones">Puntos en divisiones:</string>
+    <string name="puntos_acierto_comparaciones">Puntos en comparaciones:</string>    
+    <string name="estadisticas_generales">Estadísticas generales</string>
+    <string name="operaciones_basicas">Estadísticas de operaciones básicas (Nivel fácil)</string>
+    
+    <!-- Ajustes -->
+    <string name="opciones_generales">Opciones generales</string>
+    <string name="segundos_pregunta">Nº segundos por pregunta</string>
+    <string name="duracion_preguntas">Duración de las preguntas</string>
+    <string name="preguntas_prueba">Número de preguntas por prueba</string>
+    <string name="numero_preguntas">Número de preguntas</string>
+    <string name="password_ajustes">Contraseña para configurar ajustes</string>
+    <string name="dificultad">Nivel de dificultad</string>
+    <string name="nivel_dificultad">Normal, fácil, difícil</string>
+    <string name="password_corto">Contraseña</string>
+    <string name="relacion_puntos">Relación de puntos para cada operación</string>
+    <string name="puntos_sumas">Puntos obtenidos por cada acierto en las sumas</string>
+    <string name="puntos_restas">Puntos obtenidos por cada acierto en las restas</string>
+    <string name="puntos_multiplicaciones">Puntos obtenidos por cada acierto en las multiplicaciones</string>
+    <string name="puntos_divisiones">Puntos obtenidos por cada acierto en las divisiones</string>
+    <string name="puntos_comparaciones">Puntos obtenidos por cada acierto en las comparaciones</string>
+    <string name="puntos_extras">Puntos extras obtenidos si acierta toda la prueba</string>
+    <string name="puntos_cuestionario">Puntos en bonus</string>
+	<string name="mostrar_opciones">Mostrar respuestas</string>
+	<string name="mostrar_opciones_desc">Muestra cuatro posibles respuestas por pregunta</string>
+	
+    <!-- menu -->
+    <string name="acerca_de">Acerca de</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="definir_premios">Definir premios</string>
+    <string name="estadisticas">Estadísticas</string>
+    <string name="salir">Salir</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    
+
+</resources>

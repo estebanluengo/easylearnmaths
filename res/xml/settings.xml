@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="general"
+        android:title="@string/opciones_generales" >
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="tiempoPregunta"
+            android:summary="@string/segundos_pregunta"
+            android:title="@string/duracion_preguntas" />
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="numeroPreguntas"
+            android:summary="@string/preguntas_prueba"
+            android:title="@string/numero_preguntas" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="password"
+            android:summary="@string/password_ajustes"
+            android:title="@string/password_corto" />
+        <ListPreference 
+        	android:key="mostrarOpciones"
+        	android:title="@string/mostrar_opciones"
+        	android:summary="@string/mostrar_opciones_desc"
+        	android:entries="@array/settings_yes_no_values"
+        	android:entryValues="@array/settings_yes_no_keys"
+        	android:defaultValue="S"/>
+        <ListPreference 
+        	android:key="dificultad"
+        	android:title="@string/dificultad"
+        	android:summary="@string/nivel_dificultad"
+        	android:entries="@array/settings_difficulty_values"
+        	android:entryValues="@array/settings_difficulty_keys"
+        	android:defaultValue="N"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="puntos"
+        android:title="@string/relacion_puntos" >
+        <EditTextPreference
+            android:defaultValue="5"
+            android:key="puntosSumas"
+            android:summary="@string/puntos_sumas"
+            android:title="@string/sumas" />
+        <EditTextPreference
+            android:defaultValue="5"
+            android:key="puntosRestas"
+            android:summary="@string/puntos_restas"
+            android:title="@string/restas" />
+        <EditTextPreference
+            android:defaultValue="20"
+            android:key="puntosMultiplicaciones"
+            android:summary="@string/puntos_multiplicaciones"
+            android:title="@string/multiplicaciones" />
+        <EditTextPreference
+            android:defaultValue="20"
+            android:key="puntosDivisiones"
+            android:summary="@string/puntos_divisiones"
+            android:title="@string/divisiones" />
+        <EditTextPreference
+            android:defaultValue="5"
+            android:key="puntosComparaciones"
+            android:summary="@string/puntos_comparaciones"
+            android:title="@string/compara" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:key="puntosPruebaCompleta"
+            android:summary="@string/puntos_extras"
+            android:title="@string/puntos_cuestionario" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

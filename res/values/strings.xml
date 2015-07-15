@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Learn maths easily</string>
+
+    <!--  mensajes lanzados por la aplicacion -->
+    <string name="atencion">Warning</string>
+    <string name="borrar_progreso">Do you want to delete all your progress and start over?</string>
+    <string name="titulo_acerca_de">About</string>
+    <string name="body_acerca_de">Learn maths easily.\n\nEsteban Luengo Simón\nwww.estebanluengo.info</string>
+    <string name="jugar_de_nuevo">OK, you can start playing again.</string>
+    <string name="abandonar_partida">Do you want to quit this game?. If you don\'t finish your progress, it will not be recorded</string>
+    <string name="no_operaciones">No operations found. </string>
+    <string name="confirmacion">Confirm</string>
+    <string name="seguro_comprar_premio">Are you sure you want to buy this present?</string>
+    <string name="no_puntos">You don\'t have enough points. Keep playing.</string>
+    <string name="acabas_comprar">OK, you\'ve just bought: </string>
+    <string name="premio_obl">You must enter the text and points to get the present.</string>
+
+    <!-- mensajes de error lanzados por la aplicacion -->
+    <string name="error_general">There was an unexpected error. </string>
+    <string name="error_intentelo_nuevo">Try again please.</string>
+    <string name="error_reinicio">If the error persists press restart option</string>
+    <string name="error_no_premios">The presents could not be retrieved from the database</string>
+    <string name="error_guardar_premio">The present could not be saved in the database</string>
+    <string name="error_eliminar_premio">The present could not be deleted from the database</string>
+
+    <!-- labels de la interface gráfica -->
+    <string name="password">Enter password:</string>
+    <string name="passwordIncorrecto">The password entered is not correct</string>
+    <string name="sumas">Add</string>
+    <string name="restas">Subtract</string>
+    <string name="multiplicaciones">Multiply</string>
+    <string name="divisiones">Divide</string>
+    <string name="compara">Comparisons</string>
+    <string name="quenumerofalta">What number is missing?</string>
+    <string name="numerofalta">Missing number</string>
+    <string name="todas_operaciones">All</string>
+    <string name="pregunta">Question:</string>
+    <string name="reiniciar">Reset</string>
+    <string name="lista_premios">List of presents</string>
+    <string name="compra_premios">Purchase of presents</string>    
+    <string name="define_premio">Enter present</string>    
+    <string name="premio">Present:</string>
+    <string name="premios">presents</string>    
+    <string name="puntos">points</string>
+    <string name="puntos2">Points:</string>
+    <string name="jugar_partida">Play a game</string>    
+    <string name="pulsa_opcion">Press an option</string>
+    <string name="igual">=</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="eliminar">Delete</string>
+    <string name="siguiente">Next</string>
+    <string name="de">of</string>
+    <string name="puntos_disponnibles">Total points:</string>    
+    <string name="puntos_conseguidos">Points won:</string>
+    <string name="selecciona_compra">Select present</string>
+    <string name="no_premios">There are no presents available</string>
+    <string name="contestaste">Your answer</string>
+    <string name="resultado">Result</string>
+    <string name="no_resultados">There are no results</string>
+    <string name="nivel_crack">Amazing, you are awesome!!!</string>
+    <string name="nivel_muybueno">Keep going. Well done!!</string>
+    <string name="nivel_bueno">Not bad, next time you will be a winner</string>
+    <string name="nivel_malo">Almost there! next time you will do better</string>
+    <string name="nivel_muymalo">Don\'t give up!. Keep practicing</string>                     
+    <string name="bien">Good</string>    
+    <string name="estadisticas_juego">Game stats</string>
+    <string name="partidas_jugadas">Games played:</string>
+    <string name="preguntas_contestadas">Questions answered:</string>
+    <string name="tasa_acierto1">First attempt success rate:</string>
+    <string name="tasa_acierto2">Second attempt success rate:</string>
+    <string name="tasa_acierto3">Third or more attempt success rate:</string>
+    <string name="tasa_no_acierto">Failure rates:</string>    
+    <string name="puntos_aciertos_suma">Sum Points:</string>
+    <string name="puntos_acierto_restas">Subtraction Ponts:</string>
+    <string name="puntos_acierto_multiplicaciones">Multiplication Points:</string>
+    <string name="puntos_acierto_divisiones">Division Points:</string>
+    <string name="puntos_acierto_comparaciones">Comparisons points:</string>  
+    <string name="estadisticas_generales">General stats</string>
+    <string name="operaciones_basicas">Basic operations stats (Easy level)</string>
+    
+    <!-- Ajustes -->
+    <string name="opciones_generales">General options</string>
+    <string name="segundos_pregunta">Number of seconds per question</string>
+    <string name="duracion_preguntas">Duration of questions</string>
+    <string name="preguntas_prueba">Number of questions per quiz</string>
+    <string name="numero_preguntas">Number of questions</string>
+    <string name="password_ajustes">Password for configuring settings</string>
+    <string name="dificultad">Level of difficulty</string>
+    <string name="nivel_dificultad">Normal, easy, difficult</string>
+    <string name="password_corto">Password</string>
+    <string name="relacion_puntos">Points for each operation</string>
+    <string name="puntos_sumas">Points scored by each hit in sums</string>
+    <string name="puntos_restas">Points scored by each hit in subtractions</string>
+    <string name="puntos_multiplicaciones">Points scored by each hit in multiplications</string>
+    <string name="puntos_divisiones">Points scored by each hit in divisions</string>
+    <string name="puntos_comparaciones">Points scored by each hit in comparisons</string>
+    <string name="puntos_extras">Extra points scored if you guess all the quiz questions correctly</string>
+    <string name="puntos_cuestionario">Bonus points</string>
+	<string name="mostrar_opciones">Show answers</string>
+	<string name="mostrar_opciones_desc">Show four possible answer per question</string>
+	
+    <!-- menu -->
+    <string name="acerca_de">About</string>
+    <string name="ajustes">Settings</string>
+    <string name="definir_premios">Set presents</string>
+    <string name="estadisticas">Stats</string>
+    <string name="salir">Exit</string>
+    <string name="guardar">Save</string>
+    <string name="borrar">Delete</string>
+    
+</resources>

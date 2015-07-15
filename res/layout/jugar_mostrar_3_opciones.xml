@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:weightSum="100"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            style="@style/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_weight="40">
+
+            <TextView
+                android:id="@+id/tvNumeroPregunta"
+                style="@style/header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" 
+            android:layout_weight="60">
+
+            <TextView
+                android:id="@+id/tvTiempoRestante"
+                style="@style/header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/blue" />
+
+    <LinearLayout
+        android:id="@+id/llOperacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <!--
+        <TextView
+            android:id="@+id/tvOperacion"
+            style="@style/big_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="3dp" 
+            />
+        <TextView
+            android:id="@+id/tvIgual"
+            style="@style/big_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:text="@string/igual" />
+        -->
+        <!--
+             Button
+            android:id="@+id/bCancelar"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/cancelar" /
+        -->
+
+    </LinearLayout>
+
+<LinearLayout
+        android:id="@+id/layoutOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20dp" >
+
+        <Button
+            android:id="@+id/bRespuesta1"
+            style="@style/big_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@color/blue"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bRespuesta2"
+            style="@style/big_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@color/yellow"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bRespuesta3"
+            style="@style/big_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@color/green"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    
+</LinearLayout>

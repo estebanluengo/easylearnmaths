@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		style="@style/header">
+
+        <TextView
+            android:id="@+id/tvNumeroPregunta"
+			style="@style/header_text"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llOperacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:padding="5dp" 
+        android:orientation="horizontal">
+
+        <!--  
+        <TextView
+            android:id="@+id/tvOperacion"
+            style="@style/big_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+             />
+
+        <TextView
+            android:id="@+id/tvIgual"
+            style="@style/big_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tvOperacion"
+            android:padding="5dp"
+            android:text="@string/igual" />
+
+        <EditText
+            android:id="@+id/etRespuesta"
+            style="@style/big_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvIgual"
+            android:ems="3"
+            android:inputType="number"
+            android:padding="5dp" >
+
+            <requestFocus />
+        </EditText>
+		-->
+        <Button
+	    	style="@style/big_button"
+            android:id="@+id/bSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/siguiente" />
+
+    </LinearLayout>
+
+</LinearLayout>

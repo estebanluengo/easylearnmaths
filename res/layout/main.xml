@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!--
+    RelativeLayout
+        style="@style/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:padding="2dip">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_calculator_buttons" 
+            android:layout_alignParentLeft="true" 
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="0dp"/>
+        
+        <TextView            
+            android:id="@+id/tvSelecOpcion"
+            style="@style/header_text"
+            android:text="@string/pulsa_opcion"   
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"         
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bSumar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sumas" />
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bRestar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bSumar"
+                android:text="@string/restas" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp" >
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bMultiplicar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/multiplicaciones" />
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bDividir"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bMultiplicar"
+                android:text="@string/divisiones" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp" >
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bTodasOperaciones"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/todas_operaciones" />
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bPremios"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bTodasOperaciones"
+                android:text="@string/premios" />
+        </RelativeLayout>
+
+        <Button
+            style="@style/button"
+            android:id="@+id/bReiniciar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/reiniciar" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_difficulty_values">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Difficult</item>
+    </string-array>
+    <string-array name="settings_difficulty_keys">
+        <item>E</item>
+        <item>N</item>
+        <item>D</item>
+    </string-array>
+</resources>
